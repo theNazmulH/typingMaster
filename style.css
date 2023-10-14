@@ -1,0 +1,89 @@
+/* 
+* Project: Typing Master
+* Author: Nazmul Hussain
+* Author URI: https://www.nazmul.me
+* Version: 1.0
+* Description: This a fun project, called the "Typing Master," is an enjoyable and straightforward endeavor. It has been developed using a combination of HTML, CSS, and JavaScript technologies.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background: #2ecc71;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-content {
+    background: #2c3e50;
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 2px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    color: #fff;
+}
+
+#quoteInput {
+    width: 100%;
+    min-height: 200px;
+    border: 0;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 15px;
+    background: #34495e;
+    border: 1px solid #2ecc71;
+}
+
+#quote {
+    margin-bottom: 20px;
+}
+
+.timer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+span.correct{
+    color: #2ecc71;
+}
+span.incorrect{
+    color: rgb(226, 13, 13);
+    text-decoration: underline;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
